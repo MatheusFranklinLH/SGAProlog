@@ -1,0 +1,583 @@
+created(1638528887.032242).
+assert(estudante(matheus)).
+assert(estudante(joao)).
+assert(estudante(arthur)).
+assert(estudante(maria)).
+assert(estudante(ana)).
+assert(estudante(gabriela)).
+assert(estudante(fernando)).
+assert(estudante(gustavo)).
+assert(estudante(jose)).
+assert(estudante(thereza)).
+assert(estudante(samuel)).
+assert(estudante(paulo)).
+assert(estudante(luisa)).
+assert(estudante(julia)).
+assert(estudante(alessandra)).
+assert(estudante(tulio)).
+assert(estudante(gabriel)).
+assert(estudante(alice)).
+assert(estudante(marcelo)).
+assert(estudante(bruno)).
+assert(estudante(cuca)).
+assert(estudante(junior)).
+assert(estudante(alonso)).
+assert(estudante(nathan)).
+assert(estudante(mariano)).
+assert(estudante(guilherme)).
+assert(estudante(allan)).
+assert(estudante(jair)).
+assert(estudante(nacho)).
+assert(estudante(zaracho)).
+assert(estudante(arana)).
+assert(estudante(hulk)).
+assert(estudante(keno)).
+assert(estudante(savarino)).
+assert(estudante(diego)).
+assert(estudante(guga)).
+assert(estudante(douglas)).
+assert(estudante(dodo)).
+assert(estudante(dylan)).
+assert(estudante(savio)).
+
+
+assert(curso('ciencia da computacao')).
+assert(curso('sistemas de informacao')).
+
+assert(disciplina('calculo numerico')).
+assert(disciplina('algoritmos')).
+assert(disciplina('tcc')).
+assert(disciplina('gerencia de projetos')).
+assert(disciplina('pesquisa operacional')).
+assert(disciplina('teoria da computacao')).
+assert(disciplina('empreendimentos em informatica')).
+assert(disciplina('principios gerais da administracao')).
+assert(disciplina('equacões diferenciais 1')).
+assert(disciplina('seguranca em sistemas de computacao')).
+assert(disciplina('calculo de probabilidade 1')).
+assert(disciplina('introducao a cc')).
+assert(disciplina('contabilidade geral e introdutoria')).
+assert(disciplina('modelagem de sistemas')).
+assert(disciplina('organizacao de computadores')).
+assert(disciplina('laboratorios de programacao de sistemas web')).
+assert(disciplina('teoria dos grafos')).
+assert(disciplina('estrutura de dados')).
+assert(disciplina('calculo 1')).
+assert(disciplina('teste de software')).
+assert(disciplina('aspectos organizacionais de si')).
+assert(disciplina('inteligencia artificial')).
+assert(disciplina('aspectos legais da informatica')).
+assert(disciplina('informatica e sociedade')).
+assert(disciplina('calculo de probabilidade')).
+assert(disciplina('introducao a sistemas de informacao')).
+assert(disciplina('orientacao a objetos')).
+assert(disciplina('seguranca e auditoria de sistemas')).
+assert(disciplina('estrutura de dados 2')).
+assert(disciplina('linguagens formais')).
+assert(disciplina('geometria analitica e sistemas lineares')).
+assert(disciplina('sistemas de apoio de decisao')).
+assert(disciplina('circuitos digitais')).
+assert(disciplina('computacao grafica')).
+assert(disciplina('sistemas operacionais')).
+assert(disciplina('introducao a teoria dos numeros')).
+assert(disciplina('sistemas distribuidos')).
+assert(disciplina('calculo 3')).
+assert(disciplina('banco de dados')).
+assert(disciplina('redes de computadores')).
+assert(disciplina('engenharia de software')).
+assert(disciplina('introducao a estatistica')).
+assert(disciplina('teoria dos compiladores')).
+assert(disciplina('aspectos avancados em banco de dados')).
+assert(disciplina('aspectos avancados em engenharia de software')).
+assert(disciplina('interacao humano computador')).
+assert(disciplina('calculo 2')).
+assert(disciplina('linguagens de programacao')).
+assert(disciplina('logica')).
+assert(disciplina('algebra linear')).
+assert(disciplina('analise e projetos de algoritmos')).
+assert(disciplina('aspectos teoricos da computacao')).
+assert(disciplina('fisica 1')).
+
+/* cursa(aluno, curso) */
+
+assert(cursa(matheus, 'ciencia da computacao')).
+assert(cursa(arthur, 'ciencia da computacao')).
+assert(cursa(ana, 'ciencia da computacao')).
+assert(cursa(fernando, 'ciencia da computacao')).
+assert(cursa(jose, 'ciencia da computacao')).
+assert(cursa(samuel, 'ciencia da computacao')).
+assert(cursa(luisa, 'ciencia da computacao')).
+assert(cursa(alessandra, 'ciencia da computacao')).
+assert(cursa(gabriel, 'ciencia da computacao')).
+assert(cursa(marcelo, 'ciencia da computacao')).
+assert(cursa(cuca, 'ciencia da computacao')).
+assert(cursa(junior, 'ciencia da computacao')).
+assert(cursa(alonso, 'ciencia da computacao')).
+assert(cursa(nathan, 'ciencia da computacao')).
+assert(cursa(mariano, 'ciencia da computacao')).
+assert(cursa(guilherme, 'ciencia da computacao')).
+assert(cursa(allan, 'ciencia da computacao')).
+assert(cursa(jair, 'ciencia da computacao')).
+assert(cursa(nacho, 'ciencia da computacao')).
+assert(cursa(zaracho, 'ciencia da computacao')).
+
+assert(cursa(joao, 'sistemas de informacao')).
+assert(cursa(maria, 'sistemas de informacao')).
+assert(cursa(gabriela, 'sistemas de informacao')).
+assert(cursa(gustavo, 'sistemas de informacao')).
+assert(cursa(thereza, 'sistemas de informacao')).
+assert(cursa(paulo, 'sistemas de informacao')).
+assert(cursa(julia, 'sistemas de informacao')).
+assert(cursa(tulio, 'sistemas de informacao')).
+assert(cursa(alice, 'sistemas de informacao')).
+assert(cursa(bruno, 'sistemas de informacao')).
+assert(cursa(arana, 'sistemas de informacao')).
+assert(cursa(hulk, 'sistemas de informacao')).
+assert(cursa(keno, 'sistemas de informacao')).
+assert(cursa(savarino, 'sistemas de informacao')).
+assert(cursa(diego, 'sistemas de informacao')).
+assert(cursa(guga, 'sistemas de informacao')).
+assert(cursa(douglas, 'sistemas de informacao')).
+assert(cursa(dodo, 'sistemas de informacao')).
+assert(cursa(dylan, 'sistemas de informacao')).
+assert(cursa(savio, 'sistemas de informacao')).
+
+/* disciplina_obrigatória(curso, disciplina)*/
+
+assert(disc_obrig('ciencia da computacao', 'calculo 1')).
+assert(disc_obrig('ciencia da computacao', 'logica')).
+assert(disc_obrig('ciencia da computacao', 'geometria analitica e sistemas lineares')).
+assert(disc_obrig('ciencia da computacao', 'algoritmos')).
+assert(disc_obrig('ciencia da computacao', 'introducao a cc')).
+assert(disc_obrig('ciencia da computacao', 'algebra linear')).
+assert(disc_obrig('ciencia da computacao', 'calculo 2')).
+assert(disc_obrig('ciencia da computacao', 'fisica 1')).
+assert(disc_obrig('ciencia da computacao', 'estrutura de dados')).
+assert(disc_obrig('ciencia da computacao', 'introducao a teoria dos numeros')).
+assert(disc_obrig('ciencia da computacao', 'calculo 3')).
+assert(disc_obrig('ciencia da computacao', 'teoria dos grafos')).
+assert(disc_obrig('ciencia da computacao', 'circuitos digitais')).
+assert(disc_obrig('ciencia da computacao', 'orientacao a objetos')).
+assert(disc_obrig('ciencia da computacao', 'equacoes diferenciais 1')).
+assert(disc_obrig('ciencia da computacao', 'introducao a estatistica')).
+assert(disc_obrig('ciencia da computacao', 'organização de computadores')).
+assert(disc_obrig('ciencia da computacao', 'estrutura de dados 2')).
+assert(disc_obrig('ciencia da computacao', 'modelagem de sistemas')).
+assert(disc_obrig('ciencia da computacao', 'calculo de probabilidade')).
+assert(disc_obrig('ciencia da computacao', 'inteligencia artificial')).
+assert(disc_obrig('ciencia da computacao', 'sistemas operacionais')).
+assert(disc_obrig('ciencia da computacao', 'banco de dados')).
+assert(disc_obrig('ciencia da computacao', 'engenharia de software')).
+assert(disc_obrig('ciencia da computacao', 'pesquisa operacional')).
+assert(disc_obrig('ciencia da computacao', 'linguagens formais')).
+assert(disc_obrig('ciencia da computacao', 'redes de computadores')).
+assert(disc_obrig('ciencia da computacao', 'calculo numerico')).
+assert(disc_obrig('ciencia da computacao', 'interacao humano computador')).
+assert(disc_obrig('ciencia da computacao', 'segurança em sistemas de computacao')).
+assert(disc_obrig('ciencia da computacao', 'teoria da computacao')).
+assert(disc_obrig('ciencia da computacao', 'analise e projetos de algoritmos')).
+assert(disc_obrig('ciencia da computacao', 'computacao grafica')).
+assert(disc_obrig('ciencia da computacao', 'linguagens de programação')).
+assert(disc_obrig('ciencia da computacao', 'teoria dos compiladores')).
+assert(disc_obrig('ciencia da computacao', 'sistemas distribuidos')).
+assert(disc_obrig('ciencia da computacao', 'tcc')).
+
+assert(disc_obrig('sistemas de informacao', 'calculo 1')).
+assert(disc_obrig('sistemas de informacao', 'geometria analitica e sistemas lineares')).
+assert(disc_obrig('sistemas de informacao', 'algoritmos')).
+assert(disc_obrig('sistemas de informacao', 'logica')).
+assert(disc_obrig('sistemas de informacao', 'introducao a sistemas de informacao')).
+assert(disc_obrig('sistemas de informacao', 'calculo 2')).
+assert(disc_obrig('sistemas de informacao', 'estrutura de dados')).
+assert(disc_obrig('sistemas de informacao', 'principios gerais de administração')).
+assert(disc_obrig('sistemas de informacao', 'aspectos legais da informatica')).
+assert(disc_obrig('sistemas de informacao', 'calculo de probabilidades 1')).
+assert(disc_obrig('sistemas de informacao', 'orientacao a objetos')).
+assert(disc_obrig('sistemas de informacao', 'teoria dos grafos')).
+assert(disc_obrig('sistemas de informacao', 'contabilidade geral e introdutoria')).
+assert(disc_obrig('sistemas de informacao', 'informatica e sociedade')).
+assert(disc_obrig('sistemas de informacao', 'organização de computadores')).
+assert(disc_obrig('sistemas de informacao', 'modelagem de sistemas')).
+assert(disc_obrig('sistemas de informacao', 'aspectos teoricos da computacao')).
+assert(disc_obrig('sistemas de informacao', 'estrutura de dados 2')).
+assert(disc_obrig('sistemas de informacao', 'sistemas operacionais')).
+assert(disc_obrig('sistemas de informacao', 'inteligencia artificial')).
+assert(disc_obrig('sistemas de informacao', 'engenharia de software')).
+assert(disc_obrig('sistemas de informacao', 'banco de dados')).
+assert(disc_obrig('sistemas de informacao', 'laboratorio de programação de sistemas web')).
+assert(disc_obrig('sistemas de informacao', 'redes de computadores')).
+assert(disc_obrig('sistemas de informacao', 'pesquisa operacional')).
+assert(disc_obrig('sistemas de informacao', 'interacao humano computador')).
+assert(disc_obrig('sistemas de informacao', 'empreendimentos em informatica')).
+assert(disc_obrig('sistemas de informacao', 'gerencia de projetos')).
+assert(disc_obrig('sistemas de informacao', 'teste de software')).
+assert(disc_obrig('sistemas de informacao', 'aspectos avançados em engenharia de software')).
+assert(disc_obrig('sistemas de informacao', 'aspectos avançados em banco de dados')).
+assert(disc_obrig('sistemas de informacao', 'aspectos organizacionais de si')).
+assert(disc_obrig('sistemas de informacao', 'sistemas de apoio de decisão')).
+assert(disc_obrig('sistemas de informacao', 'segurança e auditoria de sistemas')).
+assert(disc_obrig('sistemas de informacao', 'tcc')).
+
+/*nota_final(aluno, disciplina, nota)*/
+
+/* alunos 'ciencia da computacao'*/
+
+assert(nota_final(matheus, 'calculo 1', 74)).
+assert(nota_final(matheus, 'logica', 74)).
+assert(nota_final(matheus, 'geometria analitica e sistemas lineares', 87)).
+assert(nota_final(matheus, 'algoritmos', 75)).
+assert(nota_final(matheus, 'introducao a cc', 79)).
+assert(nota_final(matheus, 'algebra linear', 81)).
+assert(nota_final(matheus, 'calculo 2', 62)).
+assert(nota_final(matheus, 'fisica 1', 78)).
+assert(nota_final(matheus, 'estrutura de dados', 70)).
+assert(nota_final(matheus, 'introducao a teoria dos numeros', 65)).
+assert(nota_final(matheus, 'calculo 3', 66)).
+assert(nota_final(matheus, 'teoria dos grafos', 85)).
+assert(nota_final(matheus, 'circuitos digitais', 100)).
+assert(nota_final(matheus, 'orientacao a objetos', 67)).
+assert(nota_final(matheus, 'equacoes diferenciais 1', 68)).
+assert(nota_final(matheus, 'introducao a estatistica', 92)).
+assert(nota_final(matheus, 'organização de computadores', 59)).
+assert(nota_final(matheus, 'estrutura de dados 2', 77)).
+assert(nota_final(matheus, 'modelagem de sistemas', 71)).
+assert(nota_final(matheus, 'calculo de probabilidade', 97)).
+assert(nota_final(arthur, 'calculo 1', 55)).
+assert(nota_final(arthur, 'logica', 64)).
+assert(nota_final(arthur, 'geometria analitica e sistemas lineares', 87)).
+assert(nota_final(arthur, 'algoritmos', 99)).
+assert(nota_final(arthur, 'introducao a cc', 97)).
+assert(nota_final(arthur, 'algebra linear', 83)).
+assert(nota_final(arthur, 'calculo 2', 91)).
+assert(nota_final(arthur, 'fisica 1', 70)).
+assert(nota_final(arthur, 'estrutura de dados', 90)).
+assert(nota_final(arthur, 'introducao a teoria dos numeros', 94)).
+assert(nota_final(arthur, 'calculo 3', 89)).
+assert(nota_final(arthur, 'teoria dos grafos', 77)).
+assert(nota_final(arthur, 'circuitos digitais', 88)).
+assert(nota_final(arthur, 'orientacao a objetos', 62)).
+assert(nota_final(arthur, 'equacoes diferenciais 1', 82)).
+assert(nota_final(arthur, 'introducao a estatistica', 64)).
+assert(nota_final(arthur, 'organização de computadores', 93)).
+assert(nota_final(arthur, 'estrutura de dados 2', 65)).
+assert(nota_final(arthur, 'modelagem de sistemas', 80)).
+assert(nota_final(arthur, 'calculo de probabilidade', 57)).
+assert(nota_final(ana, 'calculo 1', 56)).
+assert(nota_final(ana, 'logica', 98)).
+assert(nota_final(ana, 'geometria analitica e sistemas lineares', 101)).
+assert(nota_final(ana, 'algoritmos', 94)).
+assert(nota_final(ana, 'introducao a cc', 97)).
+assert(nota_final(fernando, 'calculo 1', 100)).
+assert(nota_final(fernando, 'logica', 60)).
+assert(nota_final(fernando, 'geometria analitica e sistemas lineares', 87)).
+assert(nota_final(fernando, 'algoritmos', 64)).
+assert(nota_final(fernando, 'introducao a cc', 74)).
+assert(nota_final(jose, 'calculo 1', 83)).
+assert(nota_final(jose, 'logica', 93)).
+assert(nota_final(jose, 'geometria analitica e sistemas lineares', 81)).
+assert(nota_final(jose, 'algoritmos', 73)).
+assert(nota_final(jose, 'introducao a cc', 90)).
+assert(nota_final(samuel, 'calculo 1', 67)).
+assert(nota_final(samuel, 'logica', 100)).
+assert(nota_final(samuel, 'geometria analitica e sistemas lineares', 78)).
+assert(nota_final(samuel, 'algoritmos', 72)).
+assert(nota_final(samuel, 'introducao a cc', 99)).
+assert(nota_final(luisa, 'calculo 1', 84)).
+assert(nota_final(luisa, 'logica', 85)).
+assert(nota_final(luisa, 'geometria analitica e sistemas lineares', 93)).
+assert(nota_final(luisa, 'algoritmos', 59)).
+assert(nota_final(luisa, 'introducao a cc', 55)).
+assert(nota_final(luisa, 'algebra linear', 98)).
+assert(nota_final(luisa, 'calculo 2', 87)).
+assert(nota_final(luisa, 'fisica 1', 76)).
+assert(nota_final(alessandra, 'calculo 1', 94)).
+assert(nota_final(alessandra, 'logica', 86)).
+assert(nota_final(alessandra, 'geometria analitica e sistemas lineares', 101)).
+assert(nota_final(alessandra, 'algoritmos', 73)).
+assert(nota_final(alessandra, 'introducao a cc', 93)).
+assert(nota_final(alessandra, 'algebra linear', 56)).
+assert(nota_final(alessandra, 'calculo 2', 78)).
+assert(nota_final(alessandra, 'fisica 1', 80)).
+assert(nota_final(gabriel, 'calculo 1', 97)).
+assert(nota_final(gabriel, 'logica', 68)).
+assert(nota_final(gabriel, 'geometria analitica e sistemas lineares', 80)).
+assert(nota_final(gabriel, 'algoritmos', 76)).
+assert(nota_final(gabriel, 'introducao a cc', 66)).
+assert(nota_final(gabriel, 'algebra linear', 93)).
+assert(nota_final(gabriel, 'calculo 2', 83)).
+assert(nota_final(gabriel, 'fisica 1', 58)).
+assert(nota_final(gabriel, 'estrutura de dados', 88)).
+assert(nota_final(gabriel, 'introducao a teoria dos numeros', 95)).
+assert(nota_final(marcelo, 'calculo 1', 85)).
+assert(nota_final(marcelo, 'logica', 100)).
+assert(nota_final(marcelo, 'geometria analitica e sistemas lineares', 95)).
+assert(nota_final(marcelo, 'algoritmos', 94)).
+assert(nota_final(marcelo, 'introducao a cc', 81)).
+assert(nota_final(marcelo, 'algebra linear', 70)).
+assert(nota_final(marcelo, 'calculo 2', 97)).
+assert(nota_final(marcelo, 'fisica 1', 64)).
+assert(nota_final(marcelo, 'estrutura de dados', 89)).
+assert(nota_final(marcelo, 'introducao a teoria dos numeros', 85)).
+assert(nota_final(cuca, 'calculo 1', 59)).
+assert(nota_final(cuca, 'logica', 76)).
+assert(nota_final(cuca, 'geometria analitica e sistemas lineares', 78)).
+assert(nota_final(cuca, 'algoritmos', 58)).
+assert(nota_final(cuca, 'introducao a cc', 88)).
+assert(nota_final(cuca, 'algebra linear', 58)).
+assert(nota_final(cuca, 'calculo 2', 99)).
+assert(nota_final(cuca, 'fisica 1', 98)).
+assert(nota_final(junior, 'calculo 1', 88)).
+assert(nota_final(junior, 'logica', 98)).
+assert(nota_final(junior, 'geometria analitica e sistemas lineares', 62)).
+assert(nota_final(junior, 'algoritmos', 83)).
+assert(nota_final(junior, 'introducao a cc', 72)).
+assert(nota_final(junior, 'algebra linear', 69)).
+assert(nota_final(junior, 'calculo 2', 64)).
+assert(nota_final(junior, 'fisica 1', 58)).
+assert(nota_final(alonso, 'calculo 1', 90)).
+assert(nota_final(alonso, 'logica', 69)).
+assert(nota_final(alonso, 'geometria analitica e sistemas lineares', 69)).
+assert(nota_final(alonso, 'algoritmos', 62)).
+assert(nota_final(alonso, 'introducao a cc', 68)).
+assert(nota_final(alonso, 'algebra linear', 57)).
+assert(nota_final(alonso, 'calculo 2', 69)).
+assert(nota_final(alonso, 'fisica 1', 79)).
+assert(nota_final(nathan, 'calculo 1', 62)).
+assert(nota_final(nathan, 'logica', 92)).
+assert(nota_final(nathan, 'geometria analitica e sistemas lineares', 58)).
+assert(nota_final(nathan, 'algoritmos', 64)).
+assert(nota_final(nathan, 'introducao a cc', 95)).
+assert(nota_final(nathan, 'algebra linear', 78)).
+assert(nota_final(nathan, 'calculo 2', 91)).
+assert(nota_final(nathan, 'fisica 1', 80)).
+assert(nota_final(mariano, 'calculo 1', 86)).
+assert(nota_final(mariano, 'logica', 83)).
+assert(nota_final(mariano, 'geometria analitica e sistemas lineares', 84)).
+assert(nota_final(mariano, 'algoritmos', 86)).
+assert(nota_final(mariano, 'introducao a cc', 56)).
+assert(nota_final(mariano, 'algebra linear', 71)).
+assert(nota_final(mariano, 'calculo 2', 79)).
+assert(nota_final(mariano, 'fisica 1', 59)).
+assert(nota_final(guilherme, 'calculo 1', 91)).
+assert(nota_final(guilherme, 'logica', 60)).
+assert(nota_final(guilherme, 'geometria analitica e sistemas lineares', 88)).
+assert(nota_final(guilherme, 'algoritmos', 69)).
+assert(nota_final(guilherme, 'introducao a cc', 65)).
+assert(nota_final(guilherme, 'algebra linear', 99)).
+assert(nota_final(guilherme, 'calculo 2', 68)).
+assert(nota_final(guilherme, 'fisica 1', 78)).
+assert(nota_final(allan, 'calculo 1', 72)).
+assert(nota_final(allan, 'logica', 73)).
+assert(nota_final(allan, 'geometria analitica e sistemas lineares', 64)).
+assert(nota_final(allan, 'algoritmos', 57)).
+assert(nota_final(allan, 'introducao a cc', 86)).
+assert(nota_final(allan, 'algebra linear', 61)).
+assert(nota_final(allan, 'calculo 2', 58)).
+assert(nota_final(allan, 'fisica 1', 56)).
+assert(nota_final(jair, 'calculo 1', 94)).
+assert(nota_final(jair, 'logica', 78)).
+assert(nota_final(jair, 'geometria analitica e sistemas lineares', 96)).
+assert(nota_final(jair, 'algoritmos', 55)).
+assert(nota_final(jair, 'introducao a cc', 77)).
+assert(nota_final(jair, 'algebra linear', 78)).
+assert(nota_final(jair, 'calculo 2', 72)).
+assert(nota_final(jair, 'fisica 1', 61)).
+assert(nota_final(nacho, 'calculo 1', 65)).
+assert(nota_final(nacho, 'logica', 76)).
+assert(nota_final(nacho, 'geometria analitica e sistemas lineares', 72)).
+assert(nota_final(nacho, 'algoritmos', 99)).
+assert(nota_final(nacho, 'introducao a cc', 85)).
+assert(nota_final(nacho, 'algebra linear', 70)).
+assert(nota_final(nacho, 'calculo 2', 83)).
+assert(nota_final(nacho, 'fisica 1', 97)).
+assert(nota_final(zaracho, 'calculo 1', 96)).
+assert(nota_final(zaracho, 'logica', 65)).
+assert(nota_final(zaracho, 'geometria analitica e sistemas lineares', 67)).
+assert(nota_final(zaracho, 'algoritmos', 99)).
+assert(nota_final(zaracho, 'introducao a cc', 95)).
+assert(nota_final(zaracho, 'algebra linear', 57)).
+assert(nota_final(zaracho, 'calculo 2', 98)).
+assert(nota_final(zaracho, 'fisica 1', 100)).
+
+/*alunos si*/
+
+assert(nota_final(joao, 'calculo 1', 78)).
+assert(nota_final(joao, 'logica', 82)).
+assert(nota_final(joao, 'geometria analitica e sistemas lineares', 76)).
+assert(nota_final(joao, 'algoritmos', 61)).
+assert(nota_final(joao, 'introducao a sistemas de informacao', 64)).
+assert(nota_final(joao, 'calculo 2', 89)).
+assert(nota_final(joao, 'estrutura de dados', 70)).
+assert(nota_final(joao, 'principios gerais da administração', 71)).
+assert(nota_final(joao, 'aspectos legais da informatica', 55)).
+assert(nota_final(joao, 'calculo de probabilidade 1', 66)).
+assert(nota_final(joao, 'orientacao a objetos', 96)).
+assert(nota_final(joao, 'teoria dos grafos', 65)).
+assert(nota_final(joao, 'contabilidade geral e introdutoria', 95)).
+assert(nota_final(joao, 'informatica e sociedade', 71)).
+assert(nota_final(joao, 'organização de computadores', 99)).
+assert(nota_final(joao, 'modelagem de sistemas', 89)).
+assert(nota_final(joao, 'aspectos teoricos da computacao', 80)).
+assert(nota_final(joao, 'estrutura de dados 2', 95)).
+assert(nota_final(joao, 'sistemas operacionais', 87)).
+assert(nota_final(joao, 'inteligencia artificial', 66)).
+assert(nota_final(maria, 'calculo 1', 98)).
+assert(nota_final(maria, 'logica', 99)).
+assert(nota_final(maria, 'geometria analitica e sistemas lineares', 60)).
+assert(nota_final(maria, 'algoritmos', 72)).
+assert(nota_final(maria, 'introducao a sistemas de informacao', 77)).
+assert(nota_final(maria, 'calculo 2', 79)).
+assert(nota_final(maria, 'estrutura de dados', 84)).
+assert(nota_final(maria, 'principios gerais da administração', 72)).
+assert(nota_final(maria, 'aspectos legais da informatica', 76)).
+assert(nota_final(maria, 'calculo de probabilidade 1', 72)).
+assert(nota_final(maria, 'orientacao a objetos', 71)).
+assert(nota_final(maria, 'teoria dos grafos', 73)).
+assert(nota_final(maria, 'contabilidade geral e introdutoria', 89)).
+assert(nota_final(maria, 'informatica e sociedade', 99)).
+assert(nota_final(maria, 'organização de computadores', 55)).
+assert(nota_final(maria, 'modelagem de sistemas', 95)).
+assert(nota_final(maria, 'aspectos teoricos da computacao', 96)).
+assert(nota_final(maria, 'estrutura de dados 2', 90)).
+assert(nota_final(maria, 'sistemas operacionais', 74)).
+assert(nota_final(maria, 'inteligencia artificial', 55)).
+assert(nota_final(gabriela, 'calculo 1', 59)).
+assert(nota_final(gabriela, 'logica', 71)).
+assert(nota_final(gabriela, 'geometria analitica e sistemas lineares', 72)).
+assert(nota_final(gabriela, 'algoritmos', 99)).
+assert(nota_final(gabriela, 'introducao a sistemas de informacao', 76)).
+assert(nota_final(gustavo, 'calculo 1', 77)).
+assert(nota_final(gustavo, 'logica', 61)).
+assert(nota_final(gustavo, 'geometria analitica e sistemas lineares', 59)).
+assert(nota_final(gustavo, 'algoritmos', 97)).
+assert(nota_final(gustavo, 'introducao a sistemas de informacao', 67)).
+assert(nota_final(thereza, 'calculo 1', 76)).
+assert(nota_final(thereza, 'logica', 81)).
+assert(nota_final(thereza, 'geometria analitica e sistemas lineares', 60)).
+assert(nota_final(thereza, 'algoritmos', 93)).
+assert(nota_final(thereza, 'introducao a sistemas de informacao', 71)).
+assert(nota_final(paulo, 'calculo 1', 66)).
+assert(nota_final(paulo, 'logica', 94)).
+assert(nota_final(paulo, 'geometria analitica e sistemas lineares', 80)).
+assert(nota_final(paulo, 'algoritmos', 55)).
+assert(nota_final(paulo, 'introducao a sistemas de informacao', 99)).
+assert(nota_final(julia, 'calculo 1', 65)).
+assert(nota_final(julia, 'logica', 80)).
+assert(nota_final(julia, 'geometria analitica e sistemas lineares', 97)).
+assert(nota_final(julia, 'algoritmos', 79)).
+assert(nota_final(julia, 'introducao a sistemas de informacao', 89)).
+assert(nota_final(julia, 'calculo 2', 71)).
+assert(nota_final(julia, 'estrutura de dados', 76)).
+assert(nota_final(julia, 'principios gerais da administração', 95)).
+assert(nota_final(tulio, 'calculo 1', 95)).
+assert(nota_final(tulio, 'logica', 67)).
+assert(nota_final(tulio, 'geometria analitica e sistemas lineares', 87)).
+assert(nota_final(tulio, 'algoritmos', 88)).
+assert(nota_final(tulio, 'introducao a sistemas de informacao', 89)).
+assert(nota_final(tulio, 'calculo 2', 94)).
+assert(nota_final(tulio, 'estrutura de dados', 62)).
+assert(nota_final(tulio, 'principios gerais da administração', 85)).
+assert(nota_final(alice, 'calculo 1', 68)).
+assert(nota_final(alice, 'logica', 62)).
+assert(nota_final(alice, 'geometria analitica e sistemas lineares', 83)).
+assert(nota_final(alice, 'algoritmos', 69)).
+assert(nota_final(alice, 'introducao a sistemas de informacao', 85)).
+assert(nota_final(alice, 'calculo 2', 73)).
+assert(nota_final(alice, 'estrutura de dados', 97)).
+assert(nota_final(alice, 'principios gerais da administração', 80)).
+assert(nota_final(alice, 'aspectos legais da informatica', 85)).
+assert(nota_final(alice, 'calculo de probabilidade 1', 60)).
+assert(nota_final(bruno, 'calculo 1', 87)).
+assert(nota_final(bruno, 'logica', 80)).
+assert(nota_final(bruno, 'geometria analitica e sistemas lineares', 61)).
+assert(nota_final(bruno, 'algoritmos', 61)).
+assert(nota_final(bruno, 'introducao a sistemas de informacao', 84)).
+assert(nota_final(bruno, 'calculo 2', 86)).
+assert(nota_final(bruno, 'estrutura de dados', 81)).
+assert(nota_final(bruno, 'principios gerais da administração', 66)).
+assert(nota_final(bruno, 'aspectos legais da informatica', 74)).
+assert(nota_final(bruno, 'calculo de probabilidade 1', 58)).
+assert(nota_final(arana, 'calculo 1', 76)).
+assert(nota_final(arana, 'logica', 72)).
+assert(nota_final(arana, 'geometria analitica e sistemas lineares', 97)).
+assert(nota_final(arana, 'algoritmos', 75)).
+assert(nota_final(arana, 'introducao a sistemas de informacao', 69)).
+assert(nota_final(arana, 'calculo 2', 57)).
+assert(nota_final(arana, 'estrutura de dados', 100)).
+assert(nota_final(arana, 'principios gerais da administracao', 99)).
+assert(nota_final(hulk, 'calculo 1', 90)).
+assert(nota_final(hulk, 'logica', 67)).
+assert(nota_final(hulk, 'geometria analitica e sistemas lineares', 84)).
+assert(nota_final(hulk, 'algoritmos', 80)).
+assert(nota_final(hulk, 'introducao a sistemas de informacao', 84)).
+assert(nota_final(hulk, 'calculo 2', 75)).
+assert(nota_final(hulk, 'estrutura de dados', 87)).
+assert(nota_final(hulk, 'principios gerais da administracao', 66)).
+assert(nota_final(keno, 'calculo 1', 100)).
+assert(nota_final(keno, 'logica', 65)).
+assert(nota_final(keno, 'geometria analitica e sistemas lineares', 86)).
+assert(nota_final(keno, 'algoritmos', 65)).
+assert(nota_final(keno, 'introducao a sistemas de informacao', 95)).
+assert(nota_final(keno, 'calculo 2', 66)).
+assert(nota_final(keno, 'estrutura de dados', 64)).
+assert(nota_final(keno, 'principios gerais da administracao', 88)).
+assert(nota_final(savarino, 'calculo 1', 86)).
+assert(nota_final(savarino, 'logica', 83)).
+assert(nota_final(savarino, 'geometria analitica e sistemas lineares', 71)).
+assert(nota_final(savarino, 'algoritmos', 61)).
+assert(nota_final(savarino, 'introducao a sistemas de informacao', 84)).
+assert(nota_final(savarino, 'calculo 2', 58)).
+assert(nota_final(savarino, 'estrutura de dados', 59)).
+assert(nota_final(savarino, 'principios gerais da administracao', 97)).
+assert(nota_final(diego, 'calculo 1', 85)).
+assert(nota_final(diego, 'logica', 77)).
+assert(nota_final(diego, 'geometria analitica e sistemas lineares', 91)).
+assert(nota_final(diego, 'algoritmos', 71)).
+assert(nota_final(diego, 'introducao a sistemas de informacao', 57)).
+assert(nota_final(diego, 'calculo 2', 68)).
+assert(nota_final(diego, 'estrutura de dados', 79)).
+assert(nota_final(diego, 'principios gerais da administracao', 95)).
+assert(nota_final(guga, 'calculo 1', 64)).
+assert(nota_final(guga, 'logica', 81)).
+assert(nota_final(guga, 'geometria analitica e sistemas lineares', 56)).
+assert(nota_final(guga, 'algoritmos', 70)).
+assert(nota_final(guga, 'introducao a sistemas de informacao', 74)).
+assert(nota_final(guga, 'calculo 2', 95)).
+assert(nota_final(guga, 'estrutura de dados', 91)).
+assert(nota_final(guga, 'principios gerais da administracao', 66)).
+assert(nota_final(douglas, 'calculo 1', 59)).
+assert(nota_final(douglas, 'logica', 87)).
+assert(nota_final(douglas, 'geometria analitica e sistemas lineares', 86)).
+assert(nota_final(douglas, 'algoritmos', 75)).
+assert(nota_final(douglas, 'introducao a sistemas de informacao', 70)).
+assert(nota_final(douglas, 'calculo 2', 80)).
+assert(nota_final(douglas, 'estrutura de dados', 90)).
+assert(nota_final(douglas, 'principios gerais da administracao', 95)).
+assert(nota_final(dodo, 'calculo 1', 93)).
+assert(nota_final(dodo, 'logica', 88)).
+assert(nota_final(dodo, 'geometria analitica e sistemas lineares', 55)).
+assert(nota_final(dodo, 'algoritmos', 86)).
+assert(nota_final(dodo, 'introducao a sistemas de informacao', 69)).
+assert(nota_final(dodo, 'calculo 2', 88)).
+assert(nota_final(dodo, 'estrutura de dados', 96)).
+assert(nota_final(dodo, 'principios gerais da administracao', 100)).
+assert(nota_final(dylan, 'calculo 1', 81)).
+assert(nota_final(dylan, 'logica', 64)).
+assert(nota_final(dylan, 'geometria analitica e sistemas lineares', 65)).
+assert(nota_final(dylan, 'algoritmos', 71)).
+assert(nota_final(dylan, 'introducao a sistemas de informacao', 85)).
+assert(nota_final(dylan, 'calculo 2', 74)).
+assert(nota_final(dylan, 'estrutura de dados', 83)).
+assert(nota_final(dylan, 'principios gerais da administracao', 60)).
+assert(nota_final(savio, 'calculo 1', 99)).
+assert(nota_final(savio, 'logica', 94)).
+assert(nota_final(savio, 'geometria analitica e sistemas lineares', 68)).
+assert(nota_final(savio, 'algoritmos', 66)).
+assert(nota_final(savio, 'introducao a sistemas de informacao', 97)).
+assert(nota_final(savio, 'calculo 2', 90)).
+assert(nota_final(savio, 'estrutura de dados', 61)).
+assert(nota_final(savio, 'principios gerais da administracao', 100)).
+
+/*Novas inserções*/
+
+
